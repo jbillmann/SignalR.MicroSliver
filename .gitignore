@@ -1,0 +1,14 @@
+﻿[Oo]bj/
+[Bb]in/
+*.user
+*.vspscc
+*.vssscc
+deploy
+deploy/*
+*.suo
+*.cache
+_ReSharper.*
+*.csproj.user
+*[Rr]e[Ss]harper.user
+_ReSharper.*/
+packages/*
