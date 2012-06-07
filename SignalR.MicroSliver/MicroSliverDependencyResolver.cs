@@ -17,12 +17,12 @@ namespace SignalR.MicroSliver {
 
         public override object GetService(Type serviceType) 
         {
-            return _ioc.GetByType(serviceType);
+            return _ioc.TryGetByType(serviceType) ?? base.GetService(serviceType);
         }
 
         public override IEnumerable<object> GetServices(Type serviceType) 
         {
-            yield return _ioc.GetByType(serviceType);
+            yield return _ioc.TryGetByType(serviceType) ?? base.GetServices(serviceType);
         }
     }
 }
