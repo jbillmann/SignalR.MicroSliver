@@ -19,10 +19,5 @@ namespace SignalR.MicroSliver {
         {
             return _ioc.TryGetByType(serviceType) ?? base.GetService(serviceType);
         }
-
-        public override IEnumerable<object> GetServices(Type serviceType) 
-        {
-            yield return _ioc.TryGetByType(serviceType) ?? base.GetServices(serviceType);
-        }
     }
 }
