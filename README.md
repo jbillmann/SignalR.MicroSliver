@@ -1,7 +1,7 @@
 # SignalR.MicroSliver 
-A MicroSliver dependency resolver implementation and hub activator for SignalR.
+A MicroSliver dependency resolver implementation for SignalR.
 
-Replace the default SignalR dependency resolver with MicroSliver and use it to inject hubs.
+Replace the default SignalR dependency resolver with MicroSliver and use it, for example, to inject your hubs.
 
 How to use
 ----------
