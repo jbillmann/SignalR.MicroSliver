@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.MicroSliver", "SignalR.MicroSliver\SignalR.MicroSliver.csproj", "{F9D3669C-512E-4B4D-BC80-3B5B3C1AFB5A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{227949F6-25F0-4DB1-8B7E-0CBE18B68506}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -12,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E747BB
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.MicroSliver", "SignalR.MicroSliver\SignalR.MicroSliver.csproj", "{F9D3669C-512E-4B4D-BC80-3B5B3C1AFB5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
