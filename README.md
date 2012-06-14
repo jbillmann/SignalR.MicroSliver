@@ -9,3 +9,8 @@ How to use
 [MicroSliver Home Page](http://microsliver.codeplex.com)
 
 [SignalR Extensibility](https://github.com/SignalR/SignalR/wiki/Extensibility)
+
+License
+-------
+
+[MIT License](https://github.com/jbillmann/SignalR.MicroSliver/blob/master/LICENSE.md)
