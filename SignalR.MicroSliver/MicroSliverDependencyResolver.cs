@@ -1,5 +1,6 @@
 ﻿using System;
 using MicroSliver;
+using SignalR.Hubs;
 
 namespace SignalR.MicroSliver {
     public class MicroSliverDependencyResolver : DefaultDependencyResolver{
@@ -19,4 +20,20 @@ namespace SignalR.MicroSliver {
             return _ioc.TryGetByType(serviceType) ?? base.GetService(serviceType);
         }
     }
+
+    public interface IHubContextProxy
+    {
+        IHubContext HubContext { get; set; }
+    }
+
+    public class HubContextProxy<T> : IHubContextProxy where T : IHub
+    {
+        public IHubContext HubContext { get; set; }
+
+        public HubContextProxy()
+        {
+            HubContext = GlobalHost.ConnectionManager.GetHubContext<T>();
+        }
+    }
+
 }

@@ -34,8 +34,12 @@
     <Reference Include="MicroSliver, Version=2.1.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MicroSliver.2.1.5.0\lib\net40\MicroSliver.dll</HintPath>
     </Reference>
-    <Reference Include="SignalR, Version=0.5.96.10509, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SignalR.0.5.0\lib\net40\SignalR.dll</HintPath>
+    <Reference Include="SignalR, Version=0.5.1.10610, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\SignalR.Server.0.5.1\lib\net40\SignalR.dll</HintPath>
+    </Reference>
+    <Reference Include="SignalR.Hosting.Common">
+      <HintPath>..\packages\SignalR.Hosting.Common.0.5.1\lib\net40\SignalR.Hosting.Common.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

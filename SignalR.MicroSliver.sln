@@ -1,11 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E747BB22-F17F-45A9-BC63-3319829A96D3}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\packages.config = .nuget\packages.config
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.MicroSliver", "SignalR.MicroSliver\SignalR.MicroSliver.csproj", "{F9D3669C-512E-4B4D-BC80-3B5B3C1AFB5A}"
 EndProject
 Global
